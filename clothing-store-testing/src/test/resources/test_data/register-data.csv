@@ -1,0 +1,29 @@
+ID,Email,Họ tên,Mật khẩu,Địa chỉ,Thông báo
+QLTK_01_01,clienttest1@gmail.com,Client,Abcd1234,HN,NULL
+QLTK_01_02,,Client,Abcd1234,HN,Email không được để trống
+QLTK_01_03,        ,Client,Abcd1234,HN,Email không được để trống
+QLTK_01_04, clienttest2@gmail.com ,Client,Abcd1234,HN,NULL
+QLTK_01_05,client test@gmail.com,Client,Abcd1234,HN,Email không hợp lệ
+QLTK_01_06,clienttestgmail.com,Client,Abcd1234,HN,Email không hợp lệ
+QLTK_01_07,clienttest@gmailcom,Client,Abcd1234,HN,Email không hợp lệ
+QLTK_01_08,clienttest@gmail.,Client,Abcd1234,HN,Email không hợp lệ
+QLTK_01_09,"!@#$%^&*()_+{}:\"";'<>,.?/~`",Client,Abcd1234,HN,Email không hợp lệ
+QLTK_01_10,<p>test</p>,Client,Abcd1234,HN,Email không hợp lệ
+QLTK_01_11,1; DROP TABLE Users,Client,Abcd1234,HN,Email không hợp lệ
+QLTK_01_12,<script>alert('@#$')</script>,Client,Abcd1234,HN,Email không hợp lệ
+QLTK_01_13,clienttest@gmail.com,Client,Abcd1234,HN,Email đã đăng kí.
+QLTK_01_14,CLIENTTEST@GMAIL.COM,Client,Abcd1234,HN,Email đã đăng kí.
+QLTK_01_15,clienttest3@gmail.com,,Abcd1234,HN,Tên đăng nhập không được để trống
+QLTK_01_16,clienttest4@gmail.com,        ,Abcd1234,HN,Tên đăng nhập không được để trống
+QLTK_01_17,clienttest5@gmail.com, Kiểm Thử ,Abcd1234,HN,NULL
+QLTK_01_18,clienttest6@gmail.com,Client@#$,Abcd1234,HN,Tên đăng nhập không hợp lệ
+QLTK_01_19,clienttest7@gmail.com,Client123,Abcd1234,HN,Tên đăng nhập không hợp lệ
+QLTK_01_20,clienttest8@gmail.com,Client,,HN,Mật khẩu không được để trống
+QLTK_01_21,clienttest9@gmail.com,Client,        ,HN,NULL
+QLTK_01_22,clienttest10@gmail.com,Client,1234567,HN,Mật khẩu tối thiểu 8 ký tự
+QLTK_01_23,clienttest11@gmail.com,Client,12345678,HN,NULL
+QLTK_01_24,clienttest12@gmail.com,Client,1234567890123450,HN,NULL
+QLTK_01_25,clienttest13@gmail.com,Client,12345678901234567,HN,Mật khẩu tối đa 16 ký tự
+QLTK_01_26,clienttest14@gmail.com,Client,Abcd1234,,NULL
+QLTK_01_27,clienttest15@gmail.com,Client,Abcd1234,        ,NULL
+QLTK_01_28,clienttest16@gmail.com,Client,Abcd1234," Số 298 đường Cầu Diễn, quận Bắc Từ Liêm, Hà Nội ",NULL

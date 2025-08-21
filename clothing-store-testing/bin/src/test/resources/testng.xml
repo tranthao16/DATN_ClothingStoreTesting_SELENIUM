@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ClothingStoreTesting" configfailurepolicy="continue">
+   <test name="ClothingStoreTesting" group-by-instances="true" preserve-order="true">
+    <parameter name = "browser" value = "Chrome"/>  
+    <classes>
+	         <!--<class name = "TestSuite.AccountManagement.Register"/>   -->
+            <class name = "TestSuite.AccountManagement.Login"/> 
+            <class name = "TestSuite.AccountManagement.Logout"/> 
+    
+<!--	     <class name = "TestSuite.FavoriteProductManagement.LikeProduct"/>   
+             <class name = "TestSuite.FavoriteProductManagement.ViewLikedProducts"/>  
+             <class name = "TestSuite.FavoriteProductManagement.RemoveLikedProduct"/>  -->
+
+<!--	         <class name = "TestSuite.CartManagement.AddProductToCart"/>   
+             <class name = "TestSuite.CartManagement.UpdateProductInCart"/>  
+             <class name = "TestSuite.CartManagement.RemoveProductFromCart"/>  -->
+             
+            <!-- <class name = "TestSuite.Order.OrderProductWithLogin"/> -->     
+      <!--       <class name = "TestSuite.Order.OrderProductWithoutLogin"/>  --> 
+             
+    <!--         <class name = "TestSuite.UpdateAccountInfo.UpdateAccountInfo"/>   -->  
+    
+   	<!--         <class name = "TestSuite.ViewOrderedProducts.ViewOrderedProducts"/>   -->
+             
+      <!--          <class name = "TestSuite.CategoryProductManagement.AddCategory"/>  -->
+<!--                <class name = "TestSuite.CategoryProductManagement.UpdateCategory"/>  -->
+                <!-- <class name = "TestSuite.CategoryProductManagement.DeleteCategory"/>   -->
+             
+       <!--         <class name = "TestSuite.ProductManagement.AddProduct"/>  
+                <class name = "TestSuite.ProductManagement.DeleteProduct"/>  -->
+                 
+    <!--         <class name = "TestSuite.SearchProduct"/>   -->
+    <!--         <class name = "TestSuite.ViewProductInfo"/>   -->
+    <!--         <class name = "TestSuite.ChangePassword"/>   -->
+    </classes>
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->

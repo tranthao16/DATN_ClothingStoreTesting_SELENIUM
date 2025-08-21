@@ -1,0 +1,11 @@
+ID,Tên sản phẩm,Mã sản phẩm,Hình ảnh,Mô tả,Giá gốc,Giá bán,Số lượng,Thông báo
+QLSP_01_01,Kiểm thử,Abcd1234,valid.png,Kiểm thử,20,24,2024,Thêm sản phẩm thành công
+QLSP_01_02,,Abcd1235,valid.png,Kiểm thử,20,24,2024,Tên sản phẩm là bắt buộc
+QLSP_01_03,Kiểm thử,,valid.png,Kiểm thử,20,24,2024,Mã sản phẩm là bắt buộc
+QLSP_01_04,Kiểm thử,Abcd1234,valid.png,Kiểm thử,20,24,2024,Mã sản phẩm đã tồn tại
+QLSP_01_05,Kiểm thử,Abcd1236,valid.png,,20,24,2024,Mô tả là bắt buộc
+QLSP_01_06,Kiểm thử,Abcd1237,valid.png,Kiểm thử,20,24,,Số lượng là bắt buộc
+QLSP_01_07,Kiểm thử,Abcd1238,valid.png,Kiểm thử,,24,2024,Giá gốc là bắt buộc
+QLSP_01_08,Kiểm thử,Abcd1239,valid.png,Kiểm thử,20,,2024,Giá bán là bắt buộc
+QLSP_01_09,Kiểm thử,Abcd1230,valid.png,Kiểm thử,24,20,2024,Giá bán không hợp lệ
+QLSP_01_10,Kiểm thử,Abcd1231,,Kiểm thử,20,24,2024,Hình ảnh là bắt buộc
